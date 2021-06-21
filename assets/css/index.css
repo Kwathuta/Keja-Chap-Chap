@@ -5,9 +5,9 @@
 }
 
 .header {
-  background: url("../img/nairobi-3\ 1.png") no-repeat;
+  background: url("../img/nairobi-origin.png") no-repeat;
   background-size: 100% 100%;
-  height: 80vh;
+  height: 60vh;
 }
 
 .navbar {
