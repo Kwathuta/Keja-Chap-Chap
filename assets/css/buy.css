@@ -38,6 +38,7 @@ li{
   justify-content: space-between;
   padding-right: 200px;
   padding-top: 30px;
+  list-style-type: none;
 }
 .buy-body{
   padding-top: 100px;
@@ -46,6 +47,7 @@ li{
 .kings1{
   display: flex;
   justify-content: space-around;
+  padding-bottom: 22px;
 }
 .kings{
 width: 448px;
@@ -75,7 +77,7 @@ border-radius: 10px;
 .karama1{
   display: flex;
   justify-content: space-around;
-  padding-top: ;
+  padding-bottom: 22px;
 }
 .karama{
   width: 448px;
@@ -102,6 +104,7 @@ border-radius: 10px;
 .njenga1{
   display: flex;
   justify-content: space-around;
+  padding-bottom: 22px;
 }
 .njenga{
   width: 448px;
