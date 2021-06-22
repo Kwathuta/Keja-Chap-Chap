@@ -160,7 +160,7 @@ nav a {
 }
 
 footer {
-  height: 40vh;
+  height: 30vh;
   background: rgba(40, 60, 91, 0.9);
   clear: left;
   font-family: "Poppins", sans-serif;
@@ -171,12 +171,19 @@ footer section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px;
 }
 footer section p {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   color: #f5f5f5;
+  line-height: 40px;
+  text-align: left;
+}
+
+footer section p img {
+  margin-left: 20px;
 }
 
 footer p {
