@@ -39,5 +39,77 @@ li{
   padding-right: 200px;
   padding-top: 30px;
 }
-.
+.buy-body{
+  padding-top: 100px;
+  
+}
+.kings{
+width: 448px;
+height :510px;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+border-radius: 10px;
+padding-bottom: 18px;
+
+}
+.venus{
+  width: 448px;
+height :510px;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+border-radius: 10px;
+
+}
+.simba{
+  width: 448px;
+height :510px;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+border-radius: 10px;
+
+}
+.karama{
+  width: 448px;
+height :510px;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+border-radius: 10px;
+
+}
+.sitalli{
+  width: 448px;
+height :510px;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+border-radius: 10px;
+}
+.oyster{
+  width: 448px;
+height :510px;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+border-radius: 10px;
+}
+.njenga{
+  width: 448px;
+height :510px;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+border-radius: 10px;
+
+}
+.malik{
+  width: 448px;
+height :510px;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+border-radius: 10px;
+
+}
+.jamia{
+  width: 448px;
+height :510px;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+border-radius: 10px;
 }
