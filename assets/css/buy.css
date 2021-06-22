@@ -8,7 +8,7 @@
   
 }
 .bg{
-background-image: url("../img/nairobi-3\ 1.png");
+background-image: url("../img/nairobi-origin.png");
 background-size: 100% 100%;
 min-height: 589px;
 background-repeat: no-repeat;
@@ -61,6 +61,7 @@ li{
   margin-left: 30px;
   text-align: center;
   transition: 0.3s;
+  
 
 }
 .kings:hover{
@@ -79,15 +80,40 @@ li{
 .kings img{
   border-radius:5px 5px 0px 0px ;
 }
-.footer{
-  
-  height: 40vh;
+ footer {
   height: 30vh;
   background: rgba(40, 60, 91, 0.9);
   clear: left;
   font-family: "Poppins", sans-serif;
-@@ -171,12 +171,19 @@ footer section {
+}
+
+footer section {
+  height: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px;
 }
+footer section p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #f5f5f5;
+  line-height: 40px;
+  text-align: left;
+}
+
+footer section p img {
+  margin-left: 20px;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+*/
