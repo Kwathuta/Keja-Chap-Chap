@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-image: url("../img/nairob.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  width:100%;
+  background-position: inherit;
+  position: relative;
+  background-size: cover;
+  
+}
+.nav{
+  display: flex;
+  flex-direction: column;
+}
+nav{
+  display: flex;
+ /* padding: 2% 6%;*/
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  opacity: 0.5;
+}
+.nav-links{
+  flex:1;
+  text-align: right;
+}
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin-left: 18%;
+  color:white;
+  font-size: 20px;
+  }
+  
+ 
