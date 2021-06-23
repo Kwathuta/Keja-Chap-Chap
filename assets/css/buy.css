@@ -3,50 +3,82 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  text-align: center;
-  
+  font-style: normal;  
 }
-.bg{
-background-image: url("../img/nairobi-3\ 1.png");
+
+.header{
+background-image: url("../img/nairobi-origin.png");
 background-size: 100% 100%;
 min-height: 589px;
 background-repeat: no-repeat;
+position: relative;
 }
-nav{
+
+.bg {
   display: flex;
-  margin:0 ;
-  padding: 0;
+  background: rgba(40, 60, 91, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  flex: 1.5;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+nav a {
+    
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #f5f5f5;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input {
+  height: 66px;
+  width: 70%;
+  margin-left: 111px;
+  margin-top: 400px;
+  padding: 0 15px;
+  background: rgba(245, 245, 245, 0.7);
+  border-radius: 25px;
+  outline: none;
+  border: none;
+}
+ .search-button{
   position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0px;
-  top: 0px;
-  background: rgba(40,60,91,0.7);
-  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-  
+  margin-top: 40px;
+  margin-left: 50px;
+  width: 90px;
+  height: 52px;
+  border: none;
+  border-radius: 0px 5px 0px 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  color: #f5f5f5;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(180deg, #299a16, #233221 99.99% #ececec 100%);
 }
-nav>ul>li>a{
-  text-transform: uppercase;
-  margin-right: 0px;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+.search input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
 }
-ul{
-  display: flex;
-  justify-content: flex-end;
-  
-}
-li{
-  justify-content: space-between;
-  padding-right: 200px;
-  padding-top: 30px;
-  
-}
+
 .buy-body{
   padding-top: 100px;
-
-  
 }
 
 .kings{
@@ -61,6 +93,7 @@ li{
   margin-left: 30px;
   text-align: center;
   transition: 0.3s;
+  
 
 }
 .kings:hover{
@@ -79,15 +112,39 @@ li{
 .kings img{
   border-radius:5px 5px 0px 0px ;
 }
-.footer{
-  
-  height: 40vh;
+ footer {
   height: 30vh;
   background: rgba(40, 60, 91, 0.9);
   clear: left;
   font-family: "Poppins", sans-serif;
-@@ -171,12 +171,19 @@ footer section {
+}
+
+footer section {
+  height: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px;
+}
+footer section p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #f5f5f5;
+  line-height: 40px;
+  text-align: left;
+}
+
+footer section p img {
+  margin-left: 20px;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
 }
