@@ -19,5 +19,9 @@ function validate () {
     }
     if (Email.value=='') {
         alert ("E-mail address cannot be blank")
+        Email.focus ();
+        return false
+    }
+    if (phone.value=='') {
         
     }
