@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about-us</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/about-us.css">
+    <script src="about-us.js"></script>
     
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,8 @@
 <body>
     <section class="header">
         <div class="navbar">
-            <div class="logo"><img src="./assets/img/Logo.svg" alt="keja-chap-chap">
+            <div class="logo">
+                <a href="./index.html"><img src="./assets/img/Logo.svg" alt="keja-chap-chap"></a>
             </div>
             <nav>
                 <a href="./listings.html">LISTINGS</a>
@@ -44,7 +46,7 @@
                     <label for="lname"></label>
                     <input type="text" id="lname" name="last name" placeholder="Last Name">
         
-                    </div>
+                </div>
                     <div class="majina2">
                         <label for="mail"></label>
                         <input type="text" id="mail" name="E-mail" placeholder="E-mail">
@@ -65,7 +67,7 @@
                 <input type="checkbox" name="checkbox">
                 <label for="checkbox">I consent to receiving emails containing real estate related information from this site. You can unsubscribe at any time.</label>
                 </div>
-                <input type="submit" value="submit">
+                <input type="submit" id="submit" value="submit">
             
             
             </form>
@@ -73,7 +75,7 @@
     
     
     <div>
-        <h1>FAQs</h1>
+        <h1 id="headings">FAQs</h1>
         <div class="card">
             <h2><b>How do I list my house for rent?</b></h2>
             <p>You sign up in our website and indicate “landlord” on category. You will fill in relevant details about your property such as location, size and expected income. You will also upload pictures and click finish.</p>
