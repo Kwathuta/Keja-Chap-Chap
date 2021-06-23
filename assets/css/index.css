@@ -139,9 +139,10 @@ nav a {
 }
 
 .card-content {
+  padding-top: 10px;
   font-weight: normal;
   font-size: 18px;
-  text-align: center;
+  text-align: justify;
 }
 
 .card {
