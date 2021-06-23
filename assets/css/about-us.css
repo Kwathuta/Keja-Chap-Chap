@@ -41,11 +41,16 @@
       background-color: #f5f5f5;
       
   }
+  .main {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+  }
   #headings {
       color: #283C5B;
-      font-weight: 600;
+      font-weight: 400;
       line-height: 40px;
-      font-size: 56px;
+      font-size: 40px;
       margin-top: 20px;
       margin-bottom: 20px;
       margin-top: 30px;
@@ -140,10 +145,11 @@
       flex-direction: row;
       padding: 20px;
       justify-content: space-between; }
-    .card {
+    
+      .card {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
         float: left;
-        width: 30%;
+        width: 25%;
         height: 40%;
         margin-left: 50px;
         margin-bottom: 50px;
