@@ -1,45 +1,45 @@
+/*specify the entire page layout*/
 *{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
  font-style: normal;
 }
+/*section one page set up*/
 .header {
   background: url("../img/nairobi-origin.png") no-repeat;
-  background-size: 100% 100%;
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  font-family: "Poppins", sans-serif;
+  background-size: 100% 100%;/*background image to cover the entire page*/
+  height: 60vh;/*view port high is set to 60*/
+  display: flex;/*every image in the section header should be desplayed in flax*/
+  flex-direction: column;/*flex direction to be column*/
+  position: relative;/*the position should remain normal*/
 }
-
+/*navigation bar layout*/
 .navbar {
-  display: flex;
-  background: rgba(40, 60, 91, 0.7);
-  align-items: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 100px;
+  display: flex;/*every image in the section header should be desplayed in flax*/
+  background: rgba(40, 60, 91, 0.7);/*back ground of navigation bar should be rgba specified*/
+  align-items: center;/*items should be on center*/
+  height: 100px;/*height should be specified px*/
 }
 
 .logo1 {
-  flex: 1.5;
+  flex: 1.5;/*the logo"keja chap chap", should be flex display*/
 }
-
+/*navigations specification*/
 nav {
   flex: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;/*space between and around content items along the main-axis */
 }
 
 nav a {
-  text-decoration: none;
-  font-weight: 300;
-  font-size: 24px;
-  color: #f5f5f5;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;/*removing undeline and pointers*/
+  font-weight: 300;/*fonts boldness*/
+  font-size: 24px; /*font sie*/
+  color: #f5f5f5;/*text color*/
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);/* adds shadows to text*/
 }
-  
+  /*about the cards and how they should appear*/
   .house-list {
     margin-top: 2%;
     float: left;
@@ -50,15 +50,15 @@ nav a {
     margin-bottom: 2%;
   }
   
-  /* Add rounded corners to the top left and the top right corner of the image */
+  
   img {
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;/* Add rounded corners to the top left and the top right corner of the image */
   }
-  .text{
+  .text{/*class that contains h2 and p*/
     text-align: center;
     font-size: 20px;
   }
-  .main-search {
+  .fast-search {/*class that holds the search and the click button*/
     position: absolute;
     height: 207px;
     width: 80%;
@@ -68,7 +68,7 @@ nav a {
    
   }
   
-  .main-search input {
+  .fast-search input {/*this includes type and place holder*/
     height: 66px;
     width: 70%;
     margin-left: 111px;
@@ -79,7 +79,7 @@ nav a {
     outline: none;
   }
   
-  .main-search input::placeholder {
+  .fast-search input::placeholder {
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -87,7 +87,7 @@ nav a {
    color: rgba(0, 0, 0, 0.5);
   }
   
-  .search-btn {
+  .button-srch {
     width: 170px;
     height: 66px;
     background: linear-gradient(180deg, #299a16 0%, #233221 99.99%, #ececec 100%);
@@ -100,12 +100,7 @@ nav a {
     color: #f5f5f5;
     }
   
-  .main {
-    font-style: normal;
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  
 footer{
   clear: left;
 
