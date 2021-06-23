@@ -26,7 +26,8 @@
             </nav>
         </div>
     </section>
-    <section>
+    <section class="main">
+        <section>
         <div>
             <h1 id="headings">Who We Are</h1>
             <div>
@@ -36,38 +37,38 @@
         </div>
         <div>
             <h1 id="headings">CONTACT US</h1>
-        </div>
+        </div>  
         
         <div class="contactform" >
-            <form action="action_page.php">
+            <form>
                 <div class="majina">
-                    <label for="fname"></label> <input type="text" id="fname" name="firstname" placeholder="First Name">
+                    <label for="fname"></label> <input type="text" id="fname" name="firstname" placeholder="First Name" required>
 
                     <label for="lname"></label>
-                    <input type="text" id="lname" name="last name" placeholder="Last Name">
+                    <input type="text" id="lname" name="last name" placeholder="Last Name" required>
         
                 </div>
                     <div class="majina2">
                         <label for="mail"></label>
-                        <input type="text" id="mail" name="E-mail" placeholder="E-mail">
+                        <input type="text" id="mail" name="E-mail" placeholder="E-mail" required>
 
                         <label for="phone"></label>
-                        <input type="text" id="phone" name="phone" placeholder="Phone Number (Optional)">
+                        <input type="text" id="phone" name="phone" placeholder="Phone Number (Optional)" required>
                         </div>
                        
                         <div class="msg">
                             <label for="Subject"></label>
-                            <input type="text" id="sub" name="subject" placeholder="subject (Optional">
+                            <input type="text" id="sub" name="subject" placeholder="subject (Optional" required>
 
                             <label for="message"></label>
-                            <input type="text" id="mes" name="message" placeholder="Message..">
+                            <input type="text" id="mes" name="message" placeholder="Message.." required>
                         </div>
                     </div>
                 <div class="check">
                 <input type="checkbox" name="checkbox">
                 <label for="checkbox">I consent to receiving emails containing real estate related information from this site. You can unsubscribe at any time.</label>
                 </div>
-                <input type="submit" id="submit" value="submit">
+                <input type="submit" id="submit" value="submit" onclick="validater()">
             
             
             </form>
