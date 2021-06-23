@@ -41,13 +41,14 @@ nav a {
 }
   /*about the cards and how they should appear*/
   .house-list {
-    margin-top: 5%;
+    margin-top: 6%;
     float: left;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px; /* 5px rounded corners */
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-left: 90px;
+    margin-bottom: 5px;
+    margin-right: 60px;
     height:458px;
     width: 24.4%;
   }
