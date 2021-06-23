@@ -39,6 +39,7 @@
 
   body {
       background-color: #f5f5f5;
+      
   }
   #headings {
       color: #283C5B;
@@ -47,6 +48,7 @@
       font-size: 56px;
       margin-top: 20px;
       margin-bottom: 20px;
+      margin-top: 30px;
       
   }
   p.abtus {
@@ -93,6 +95,7 @@
     margin-left: 20px;
     background:white;
     border: 1px solid black;
+    outline: none;
     
   }
  input[type=submit] {
@@ -114,6 +117,7 @@
     margin-left: 15%;
     margin-right: 15%;
     width: 70%;
+    background-color: white;
   }
   .msg {
     display: flex;
@@ -147,26 +151,45 @@
         
     }
 
-      footer {
-        height: 45vh;
-        background: rgba(40, 60, 91, 0.9);
-        clear: left;
-        font-family: "Poppins", sans-serif;
-      }
-      
-      footer section {
-        height: 90%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px;
-      }
-      footer section p {
-        font-style: normal;
-        font-weight: 500;
-        font-size: 24px;
-        color: #f5f5f5;
-        line-height: 40px;
-        text-align: left;
-      }
-  
+    footer {
+      height: 30vh;
+      background: rgba(40, 60, 91, 0.9);
+      clear: left;
+      font-family: "Poppins", sans-serif;
+    }
+    
+    footer section {
+      height: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+    }
+    footer section p {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      color: #f5f5f5;
+      line-height: 40px;
+      text-align: left;
+    }
+    
+    footer section p img {
+      margin-left: 20px;
+      height: 30px;
+      width: 30px;
+    }
+    
+    footer p {
+      text-align: center;
+      margin-bottom: 10px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    
+    footer p span {
+      font-weight: 600;
+    }
