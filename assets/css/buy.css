@@ -18,6 +18,7 @@ position: relative;
   display: flex;
   background: rgba(40, 60, 91, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100px;
 }
 
 .logo {
@@ -67,7 +68,6 @@ input {
   font-size: 24px;
   line-height: 40px;
   color: white
-  text-shadow 0px 4px 4px rgba(0, 0, 0, 0.25);
  
  }
 .search input::placeholder {
@@ -94,8 +94,7 @@ input {
   margin-left: 30px;
   text-align: center;
   transition: 0.3s;
-  
-
+  /* font-size: 24px; */
 }
 .kings:hover{
  box-shadow:0px 8px 8px rgba(0,0,0,0.25); ;
