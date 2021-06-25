@@ -19,4 +19,4 @@ I'd love to chat! Ping us @kevocb @sharrycherop @theplatnumz on Twitter should a
 ### License
 
 _MIT Licence_
-Copyright (c) 2021 **Kelvin Gitahi**
+Copyright (c) 2021 **Keja Chap Chap**
