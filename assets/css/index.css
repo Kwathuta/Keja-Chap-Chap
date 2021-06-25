@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* width: 100vw; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  background: url("../img/nairobi-origin.png") no-repeat;
+  background-size: 100% 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  background: rgba(40, 60, 91, 0.7);
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100px;
+}
+
+.logo {
+  flex: 1;
+}
+
+nav {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #f5f5f5;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-search {
+  position: absolute;
+  height: 207px;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  bottom: 5vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.main-search p {
+  margin-left: 111px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: rgba(245, 245, 245, 0.9);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main-search input {
+  height: 66px;
+  width: 70%;
+  margin-left: 111px;
+  margin-top: 10px;
+  padding: 0 15px;
+  background: rgba(245, 245, 245, 0.7);
+  border-radius: 5px 0px 0px 5px;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main-search input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* line-height: 40px; */
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search-btn {
+  width: 170px;
+  height: 66px;
+  background: linear-gradient(180deg, #299a16 0%, #233221 99.99%, #ececec 100%);
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+  color: #f5f5f5;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#heading {
+  font-weight: 600;
+  font-size: 56px;
+  padding: 20px;
+  text-align: center;
+}
+
+#sub-heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 50px;
+  clear: left;
+}
+
+.card-img img {
+  width: 100%;
+  height: 260px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card-header {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.card-content {
+  padding-top: 10px;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 30%;
+  height: 485px;
+  float: left;
+  /* margin-right: 50px; */
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+
+@media screen and (max-width: 600px) {
+  #heading {
+    font-size: 28px;
+  }
+  #sub-heading {
+    font-size: 18px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
+  .card {
+    padding: 0;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: auto;
+    height: 500px;
+  }
+  .card-img img {
+    width: 100%;
+    height: 200px;
+  }
+  #footer-section {
+    padding: 20px;
+  }
+  #footer-section p {
+    flex: 1;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    color: #f5f5f5;
+    line-height: 20px;
+    text-align: left;
+    margin-right: 10px;
+  }
+  #copyright {
+    font-size: 8px;
+  }
+}
+
+footer {
+  height: 30vh;
+  background: rgba(40, 60, 91, 0.9);
+  clear: left;
+  font-family: "Poppins", sans-serif;
+}
+
+footer section {
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+footer section p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #f5f5f5;
+  line-height: 40px;
+  text-align: left;
+}
+
+footer section p img {
+  margin-left: 20px;
+  height: 30px;
+  width: 30px;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer p span {
+  font-weight: 600;
+}
